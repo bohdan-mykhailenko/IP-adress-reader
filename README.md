@@ -1,4 +1,4 @@
-# GetDataFromIPAddress Application
+# IP Adress Reader Application
 
 **Technologies**
 
