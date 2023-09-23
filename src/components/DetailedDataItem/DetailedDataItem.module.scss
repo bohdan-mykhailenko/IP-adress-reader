@@ -1,0 +1,21 @@
+.detailedDataItem {
+  display: flex;
+  align-items: center;
+
+  &__title {
+    margin-right: 3px;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 367px) {
+    &__title {
+      font-size: 12px;
+    }
+
+    font-size: 14px;
+  }
+}

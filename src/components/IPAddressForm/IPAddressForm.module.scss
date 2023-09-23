@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  flex-direction: column;
+
+  &__formGroup {
+    margin-bottom: 20px;
+  }
+
+  &__textFeild {
+  }
+
+  &__errorMessage {
+    margin-top: 10px;
+    font-size: 14px;
+    display: flex;
+    color: var(--danger);
+  }
+
+  &__button {
+  }
+}

@@ -1,0 +1,9 @@
+.App {
+  font-family: Roboto, Mont, sans-serif;
+}
+
+:root {
+  --primary: #2e7d32;
+  --secondary: rgb(50, 56, 49);
+  --danger: rgb(200, 20, 20);
+}

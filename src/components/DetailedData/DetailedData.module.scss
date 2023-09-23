@@ -1,0 +1,31 @@
+.detailedData {
+  padding: 10px;
+
+  border: 2px solid var(--primary);
+  border-radius: 5px;
+
+  &__title {
+    margin-bottom: 20px;
+
+    text-align: center;
+    border: none;
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  &__content {
+    display: grid;
+    gap: 15px;
+  }
+
+  @media (max-width: 367px) {
+    &__title {
+      font-size: 16px;
+    }
+
+    &__content {
+      gap: 7px;
+    }
+  }
+}
